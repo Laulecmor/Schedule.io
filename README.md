@@ -25,4 +25,5 @@ I then added a function to save the text in the local storage and to add it in t
 <img width="925" alt="Screenshot 2023-10-16 at 12 35 59 PM" src="https://github.com/Laulecmor/Schedule.io/assets/92830894/953c5aea-f40e-4271-a22c-5394d364e0fe">
 <img width="925" alt="Screenshot 2023-10-16 at 12 36 06 PM" src="https://github.com/Laulecmor/Schedule.io/assets/92830894/aafbbb81-e754-4dfd-aab8-79bcd19e8b63">
 
+ https://laulecmor.github.io/Schedule.io/
 

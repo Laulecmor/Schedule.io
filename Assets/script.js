@@ -1,11 +1,18 @@
+// Function and Variable to display date on screen 
+
 $(document).ready(function () {
   var date = dayjs();
   $("#currentDay").text(date.format('MMM D, YYYY'));
 
   colorChange();
 
+// Function to get the hour of the day 
+
   function colorChange() {
     var timeNow = dayjs().hour();
+
+// Function that will change the color on the blocks based on whether the time is in the present, past, or future
+
 
     $(".time-block").each(function () {
       var blockTime = parseInt($(this).attr("id").split("hour")[1]);
@@ -18,6 +25,8 @@ $(document).ready(function () {
         $(this).removeClass("past present").addClass("future");
       }
     });
+
+// Loop that will save the data on the hour block 
 
     for (let hour = 9; hour <= 17; hour++) {
       $(`#hour${hour} .description`).val(localStorage.getItem(`hour${hour}`));
